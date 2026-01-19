@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+body{background:#020617;color:white;}
+header{
+    background:#020617;
+    padding:15px;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{color:#38bdf8;}
+form{
+    max-width:450px;
+    margin:70px auto;
+}
+input,textarea,button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+}
+button{
+    background:#38bdf8;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+<header>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="login.html">Connexion</a>
+    <a href="projects.html">Projets</a>
+    <a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<form>
+    <h1>Contactez-moi</h1>
+    <input type="text" placeholder="Nom">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button>Envoyer</button>
+</form>
+</body>
+</html>

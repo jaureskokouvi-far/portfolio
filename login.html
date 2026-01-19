@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Connexion</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial;}
+body{
+    background:linear-gradient(135deg,#0f172a,#020617);
+}
+header{
+    background:#020617;
+    padding:15px;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+nav a:hover{color:#38bdf8;}
+.box{
+    background:white;
+    width:320px;
+    margin:80px auto;
+    padding:25px;
+    border-radius:8px;
+}
+input,button{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+}
+button{
+    background:#38bdf8;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+<header>
+<nav>
+    <a href="index.html">Accueil</a>
+    <a href="login.html">Connexion</a>
+    <a href="projects.html">Projets</a>
+    <a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="box">
+    <h2>Connexion</h2>
+    <input type="text" placeholder="Nom d'utilisateur">
+    <input type="password" placeholder="Mot de passe">
+    <button>Se connecter</button>
+</div>
+</body>
+</html>
